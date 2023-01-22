@@ -7,7 +7,7 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
-    //ssr: true,
+    ssr: false,
     build: {
         transpile: ['@heroicons/vue']
     },
